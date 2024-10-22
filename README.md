@@ -13,7 +13,7 @@ It is **NOT** intended for **production usage**! It's simple and hackable enough
 
     1. Displays the count of offline navigations (i.e., page changes within the SPA without a full page reload). The value is updated by JavaScript in the app.js file, incrementing each time navigation occurs within the SPA.
 
-    2. Displays the number of times the page has been reloaded since the session began. This value is managed using sessionStorage, incrementing each time the page is reloaded. The updated value is reflected in the page, as shown in both the app.js and contact.html files.
+    2. Displays the number of times the page has been reloaded since the session began. This value is managed using sessionStorage, incrementing each time the page is reloaded. The updated value is reflected in the page, as shown in both the `app.js` and `contact.html` files.
 
 ## Project Structure
 
@@ -54,13 +54,13 @@ Install Docker or Node.js:
 Clone the repository
 
 ```
-git clone https://github.com/elidaniel92/jetty-12-rest-api-sample.git
+git clone https://github.com/elidaniel92/spa-with-pure-js.git
 ```
 
 Switch to the repository folder:
 
 ```
-cd jetty-12-rest-api-sample
+cd spa-with-pure-js
 ```
 
 ### Running Locally with Docker
