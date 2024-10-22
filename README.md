@@ -6,7 +6,7 @@ It is 🚫 **NOT** intended for 🪲 **production usage**! It's simple and hacka
 
 > ⚠️ **Note**: this webapp depends on [catfact.ninja API](https://catfact.ninja/). See: [cat-fact.js](src/pages/cat-fact/cat-fact.js#L7)
 
-## 🏃‍♂️TLDR
+## 🏃‍♂️TL;DR
 
 View the website hosted on AWS S3: http://spa-with-pure-javascript.s3-website-us-east-1.amazonaws.com
 
