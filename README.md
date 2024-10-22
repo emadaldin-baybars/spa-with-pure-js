@@ -41,13 +41,14 @@ src/
 
 ### Prerequisites
 
-- Docker and Docker Compose installed on your machine.
+- Docker and Docker Compose installed on your machine to run in a container.
+- Node to run with NPM.
 
 ### Installation
 
 Install Docker or Node.js:
 
-[Install Docker](https://www.docker.com/)
+[Install Docker](https://www.docker.com/) 
 
 [Install Node](https://nodejs.org/)
 
