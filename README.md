@@ -58,7 +58,7 @@ Install Docker or Node.js:
 
 [Install Node](https://nodejs.org/)
 
-Clone the repository
+Clone the repository:
 
 ```
 git clone https://github.com/elidaniel92/spa-with-pure-js.git
@@ -72,7 +72,7 @@ cd spa-with-pure-js
 
 ### 🐳 Running Locally with Docker
 
-Start the app using Docker Compose:
+Start the app using Docker Compose.
 
 Build the Nginx Container Image:
 ```
