@@ -4,7 +4,7 @@ This project is a Single Page Application (SPA) built using pure HTML, CSS, and 
 
 It is **NOT** intended for **production usage**! It's simple and hackable enough to be used for **Learning Purposes**.
 
-> ⚠️ **Note**: this webapp depends on [catfact.ninja API](https://catfact.ninja/). See: [cat-fact.js](src/pages/cat-fact/cat-fact.js)
+> ⚠️ **Note**: this webapp depends on [catfact.ninja API](https://catfact.ninja/). See: [cat-fact.js](src/pages/cat-fact/cat-fact.js#L7)
 
 ## TLDR
 
