@@ -4,6 +4,10 @@ This project is a Single Page Application (SPA) built using pure HTML, CSS, and 
 
 It is **NOT** intended for **production usage**! It's simple and hackable enough to be used for **Learning Purposes**.
 
+## TLDR
+
+View the website hosted on AWS S3: http://spa-with-pure-javascript.s3-website-us-east-1.amazonaws.com
+
 ## Features
 
 - **Dynamic Page Loading**: Pages (home and cat fact) are dynamically loaded into a single content area without reloading the entire page.
