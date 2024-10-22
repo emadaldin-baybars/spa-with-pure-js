@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Page Application (SPA) With pure Javascript</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        #content {
+            padding: 20px;
+        }
+        #offline-navigation-count {
+            padding: 20px;
+        }
+        #page-reloads-count {
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="/home">Home</a>
+        <a href="/cat-fact">Cat Fact</a>
+        <a href="/contact.html">Contact</a>
+    </nav>
+
+    <div id="content">
+        <h1>Contact Us</h1>
+        <p>You are no longer in a Single Page Application (SPA).</p>
+        <p>The contact page is a separate file, named <a href="/contact.html">contact.html</a>"</p>
+    </div>
+
+    <div id="offline-navigation-count">
+        <p>Offline Navigation Count: <span id="offline-navigation-count-value">0</span></p>
+        <p><i>The value is reset after the page reloads.</i></p>
+    </div>
+
+    <div id="page-reloads-count">
+        <p>Page Reloads Count: <span id="page-reloads-count-value">0</span></p>
+    </div>
+
+    <script>
+        const pageReloadsCount = sessionStorage.getItem("page-reloads-count");
+        let pageReloadsCountPlus1;
+        if(pageReloadsCount) {
+        pageReloadsCountPlus1 = (parseInt(pageReloadsCount) + 1).toString();
+        sessionStorage.setItem("page-reloads-count", pageReloadsCountPlus1);
+        } else {
+            pageReloadsCountPlus1 = "1";
+            sessionStorage.setItem("page-reloads-count", pageReloadsCountPlus1);
+        }
+
+        const countValue = document.getElementById("page-reloads-count-value");
+        countValue.innerHTML = pageReloadsCountPlus1;
+    </script>
+</body>
+</html>
