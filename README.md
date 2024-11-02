@@ -12,8 +12,8 @@ View the website hosted on AWS S3: http://spa-with-pure-javascript.s3-website-us
 
 ## ✨ Features
 
-- **Dynamic Page Loading**: Pages (home and cat fact) are dynamically loaded into a single content area without reloading the entire page.
-- **Back/Forward Navigation**: Properly handles the browser's back and forward buttons, ensuring seamless navigation between pages.
+- **Dynamic Page Loading:** Pages (home and cat fact) are dynamically loaded into a single content area without reloading the entire page.
+- **Back/Forward Navigation:** Properly handles the browser's back and forward buttons, ensuring seamless navigation between pages.
 - **Nginx Setup:** Dockerized with an Nginx configuration for serving the SPA.
 - **User Navigation Count:** Tracks offline navigation within the SPA and page reloads.
 
