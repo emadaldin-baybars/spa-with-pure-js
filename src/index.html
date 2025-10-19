@@ -3,43 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Single Page Application (SPA) With pure Javascript</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        nav {
-            background-color: #333;
-            color: #fff;
-            padding: 10px;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            padding: 10px;
-        }
-        nav a:hover {
-            background-color: #555;
-        }
-        #content {
-            padding: 20px;
-        }
-        #offline-navigation-count {
-            padding: 20px;
-        }
-        #page-reloads-count {
-            padding: 20px;
-        }
-    </style>
+
+    <!-- Primary Meta Tags -->
+    <title>Single Page Application (SPA) With Pure Javascript</title>
+    <meta name="title" content="Single Page Application (SPA) With Pure Javascript">
+    <meta name="description" content="A modern Single Page Application built with vanilla JavaScript, HTML, and CSS. Features client-side routing, API integration, and SEO optimization.">
+    <meta name="keywords" content="javascript, spa, single page application, vanilla js, web development">
+    <meta name="author" content="SPA Developer">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://spa-with-pure-javascript.s3-website-us-east-1.amazonaws.com/">
+    <meta property="og:title" content="Single Page Application (SPA) With Pure Javascript">
+    <meta property="og:description" content="A modern Single Page Application built with vanilla JavaScript, HTML, and CSS. Features client-side routing, API integration, and SEO optimization.">
+    <meta property="og:image" content="/assets/og-image.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://spa-with-pure-javascript.s3-website-us-east-1.amazonaws.com/">
+    <meta property="twitter:title" content="Single Page Application (SPA) With Pure Javascript">
+    <meta property="twitter:description" content="A modern Single Page Application built with vanilla JavaScript, HTML, and CSS. Features client-side routing, API integration, and SEO optimization.">
+    <meta property="twitter:image" content="/assets/og-image.jpg">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="alternate icon" type="image/x-icon" href="/favicon.ico">
+
+    <!-- Preconnect to external APIs -->
+    <link rel="preconnect" href="https://catfact.ninja">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
+    <!-- Skip to main content for accessibility -->
+    <a href="#content" class="skip-link">Skip to main content</a>
 
     <nav>
         <a href="/home" onclick="navigate(event, 'home')">Home</a>
         <a href="/cat-fact" onclick="navigate(event, 'cat-fact')">Cat Fact</a>
-        <a href="/contact.html">Contact</a>
+        <a href="/contact-form" onclick="navigate(event, 'contact-form')">Contact Form</a>
+        <a href="/example" onclick="navigate(event, 'example')">Component Example</a>
+        <a href="/contact.html">Contact (Full Page)</a>
     </nav>
 
     <div id="content">
