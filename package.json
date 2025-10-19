@@ -1,0 +1,47 @@
+{
+  "name": "spa-with-pure-js",
+  "version": "1.0.0",
+  "description": "A Single Page Application (SPA) built using pure HTML, CSS, and JavaScript",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "http-server ./src --port 8080 -o",
+    "docker:build": "docker-compose build",
+    "docker:up": "docker-compose up",
+    "docker:down": "docker-compose down",
+    "docker:watch": "docker-compose watch",
+    "lint": "eslint src/**/*.js",
+    "lint:fix": "eslint src/**/*.js --fix",
+    "format": "prettier --write \"src/**/*.{js,css,html,json}\"",
+    "format:check": "prettier --check \"src/**/*.{js,css,html,json}\""
+  },
+  "keywords": [
+    "spa",
+    "javascript",
+    "vanilla-js",
+    "single-page-application",
+    "web-development",
+    "html5",
+    "css3",
+    "seo"
+  ],
+  "author": "SPA Developer",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.50.0",
+    "eslint-config-prettier": "^9.0.0",
+    "http-server": "^14.1.1",
+    "prettier": "^3.0.3"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elidaniel92/spa-with-pure-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/elidaniel92/spa-with-pure-js/issues"
+  },
+  "homepage": "http://spa-with-pure-javascript.s3-website-us-east-1.amazonaws.com"
+}
